@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="postes 2"/>
+        <attribute name="authors" value="muham"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-22 11.52.38 AM"/>
+        <attribute name="created" value="bXVoYW07QU5DRUw7MjAyNS0wOS0yMTswOS41OC4zNiBQTTsyMTYz"/>
+        <attribute name="edited" value="bXVoYW07QU5DRUw7MjAyNS0wOS0yMjsxMS41Mi4zOCBBTTsyOzIyNDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nama, Nim" type="String" array="False" size=""/>
+            <declare name="HargaLaptop, HargaLenovo, HargaAsus, HargaAcer" type="Integer" array="False" size=""/>
+            <input variable="Nama"/>
+            <input variable="Nim"/>
+            <input variable="HargaLaptop"/>
+            <output expression="Nama &amp; &quot; dengan Nim &quot; &amp; Nim &amp; &quot; Ingin membeli laptop seharga Rp. &quot; &amp; HargaLaptop" newline="True"/>
+            <assign variable="HargaLenovo" expression="HargaLaptop - (HargaLaptop * 0.10)"/>
+            <assign variable="HargaAsus" expression="HargaLaptop - (HargaLaptop * 0.07)"/>
+            <assign variable="HargaAcer" expression="HargaLaptop - (HargaLaptop * 0.05)"/>
+            <output expression="&quot; Harga Lenovo  Rp. &quot; &amp; HargaLenovo" newline="True"/>
+            <output expression="&quot; Harga Asus  Rp. &quot; &amp; HargaAsus" newline="True"/>
+            <output expression="&quot; Harga Acer  Rp. &quot; &amp; HargaAcer" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
