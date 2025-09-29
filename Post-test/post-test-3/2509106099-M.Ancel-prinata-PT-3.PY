@@ -1,9 +1,9 @@
  #LOGIN
 MasukanName = "Muhammad Ancel Prinata"
-MasukanNim = 2509106099
+MasukanNim = "2509106099"
 
 NamaLengkap = input('Masukan Nama Lengkap Anda:')
-NIM = int(input('Masukan Nim Anda: '))
+NIM = input('Masukan Nim Anda: ')
 if NamaLengkap == MasukanName and NIM == MasukanNim:
     print("Login anda berhasil")
 
@@ -50,10 +50,10 @@ if NamaLengkap == MasukanName and NIM == MasukanNim:
     else:
         print('Pilihan input tidak tersedia')
     total_biaya = BiayaLangganan + (BiayaLangganan * biaya_administrasi)
-    print("Nama               :", NamaLengkap)
-    print("nim                :",NIM)
-    print("paket yang dipilih :",paket)
-    print("fitur yang di dapat:",fitur_akses)
+    print("Nama                :", NamaLengkap)
+    print("nim                 :",NIM)
+    print("paket yang dipilih  :",paket)
+    print("fitur yang di dapat :",fitur_akses)
     print(f"total yang dibayar : Rp {total_biaya:,.0f}")
 
 else:
