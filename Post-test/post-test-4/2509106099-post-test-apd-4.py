@@ -1,13 +1,13 @@
-Name = "Ancel"
-Nim = "2509106099"
+name = "Ancel"
+nim = "2509106099"
 percobaan = 0
 total = 0
 
 while percobaan < 3:
-    Masukan_Name = input(" Masukan Nama Beliau : ")
-    password     = input(" Masukan Password (NIM) : ") 
+    Masukan_name = input(" Masukan nama Beliau : ")
+    password     = input(" Masukan Password (nim) : ") 
 
-    if Masukan_Name == Name and password == Nim:
+    if Masukan_name == name and password == nim:
         print(" Selamat Login Anda Berhasil ")
         Login_Berhasil = "GAS KUYY PESAN"
         while True:
@@ -38,7 +38,7 @@ while percobaan < 3:
             confirmasi = input("Apakah ingin Lanjut membeli tiket ")
             if confirmasi == "ya":
                 pass  
-            elif confirmasi == "tidak":
+            elif confirmasi == "tidak":     
 
                 for w in range (jumlah_Tiket):
                     total += harga
