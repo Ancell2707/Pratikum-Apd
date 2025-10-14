@@ -8,12 +8,13 @@ stok = [
     ["Saxophone", 2500000, 1, 1]  # 1 = Tiup
 ]
 
-
 while True:
-    print("\n=== SELAMAT DATANG DI TOKO ALAT MUSIK ===")
-    print("1. Masuk sebagai User (Lihat Katalog) - Akses Terbatas")
-    print("2. Masuk sebagai Admin (Kelola Stok) - Akses Penuh")
-    print("3. Keluar")
+    print('-'*58)
+    print("||=== SELAMAT DATANG DI TOKO ALAT MUSIK ===             ||")
+    print("||1. Masuk sebagai User (Lihat Katalog) - Akses Terbatas||")
+    print("||2. Masuk sebagai Admin (Kelola Stok) - Akses Penuh    ||")
+    print("||3. Keluar                                             ||")
+    print('||' + '-'*54 + '||')
     
     role_pilihan = input("Pilih role (1-3): ")
     
